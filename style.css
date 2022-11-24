@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #745aea;
+}
+.search{
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    display: flex;
+    justify-content: center;
+    transition: width 0.5  ease;
+}
+.input{
+    font-size: 18px;
+    border: none;
+    height: 45px;
+    visibility: hidden;
+    width: 0;
+    transition: 0.5s ease-in-out ;
+    
+}
+.input:focus{
+    outline: none;
+}
+
+.btn.active{
+    
+    transition: 1s;
+}
+.btn{
+    border: none;
+    width: 50px;
+    background-color: white;
+}
+
+.input.active{
+    visibility: visible;
+    font-size: 18px;
+    border: none;
+    height: 45px;
+    width: 220px;
+    transition: 0.5s ease-in-out ;
+   
+    
+    
+}
